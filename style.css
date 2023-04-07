@@ -1,0 +1,35 @@
+body{
+    font-family: 'Heebo', sans-serif;
+    margin: 0;
+}
+
+.top-banner{
+    background-image: url(images/header-bg.png);
+    background-repeat: no-repeat;
+
+}
+
+.half-width{
+    width: 40%;
+    float: left;
+    margin-top: 5%;
+    margin-left: 5%;
+    padding-left: 2%;
+
+}
+.half-width img{
+    width: 100%;
+}
+.pink-highlight{
+    color: #e9156d9a;
+
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+
+}
