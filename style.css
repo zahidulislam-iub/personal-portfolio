@@ -2,6 +2,9 @@ body{
     font-family: 'Heebo', sans-serif;
     margin: 0;
 }
+p{
+    color: dimgray;
+}
 
 .top-banner{
     background-image: url(images/header-bg.png);
@@ -16,6 +19,12 @@ body{
     margin-left: 5%;
     padding-left: 2%;
 
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
 }
 .half-width img{
     width: 100%;
@@ -33,3 +42,26 @@ body{
     font-weight: bold;
 
 }
+
+.biography-area{
+    background-image: url(images/biography-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.work-area{
+    background-image: url(images/latest-work-bg.png);
+    background-repeat: no-repeat;
+}
+.latest-img{
+    float: left;
+}
+.client-area{
+    background-image: url(images/footer-bg.png);
+    background-repeat: no-repeat;
+
+}
+
+footer p{
+    text-align: center;
+    font-size: 14px;
+ }
